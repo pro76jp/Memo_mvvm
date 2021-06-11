@@ -1,0 +1,48 @@
+PODS:
+  - GrowingTextView (0.7.2)
+  - Realm (10.7.6):
+    - Realm/Headers (= 10.7.6)
+  - Realm/Headers (10.7.6)
+  - RealmSwift (10.7.6):
+    - Realm (= 10.7.6)
+  - RxCocoa (6.2.0):
+    - RxRelay (= 6.2.0)
+    - RxSwift (= 6.2.0)
+  - RxRelay (6.2.0):
+    - RxSwift (= 6.2.0)
+  - RxSwift (6.2.0)
+  - SnapKit (5.0.1)
+  - Toaster (2.3.0)
+
+DEPENDENCIES:
+  - GrowingTextView
+  - RealmSwift
+  - RxCocoa (= 6.2.0)
+  - RxSwift (= 6.2.0)
+  - SnapKit
+  - Toaster
+
+SPEC REPOS:
+  trunk:
+    - GrowingTextView
+    - Realm
+    - RealmSwift
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SnapKit
+    - Toaster
+
+SPEC CHECKSUMS:
+  GrowingTextView: 876bf42005b5e4a4fd740597db12caaf41f0fe6c
+  Realm: ed860452717c8db8f4bf832b6807f7f2ce708839
+  RealmSwift: e31c4ddbcc42ac879313d656b86f9ca539f6f4f4
+  RxCocoa: 4baf94bb35f2c0ab31bc0cb9f1900155f646ba42
+  RxRelay: e72dbfd157807478401ef1982e1c61c945c94b2f
+  RxSwift: d356ab7bee873611322f134c5f9ef379fa183d8f
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  Toaster: c3473963c78e8cabbf6ea6f11ad0fdaae6f54987
+
+PODFILE CHECKSUM: 41894cd86f34ed9d4a876f5eb2b69f26c2370e23
+
+COCOAPODS: 1.10.1

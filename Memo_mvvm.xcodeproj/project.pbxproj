@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,13 @@
 		8E8243132671974400551F3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E8243112671974400551F3E /* LaunchScreen.storyboard */; };
 		8E82431E2671974400551F3E /* Memo_mvvmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E82431D2671974400551F3E /* Memo_mvvmTests.swift */; };
 		8E8243292671974400551F3E /* Memo_mvvmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8243282671974400551F3E /* Memo_mvvmUITests.swift */; };
+		8E8243412671D50B00551F3E /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8243402671D50B00551F3E /* Model.swift */; };
+		8E8243452671D54900551F3E /* RealmListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8243432671D54900551F3E /* RealmListVC.swift */; };
+		8E8243462671D54900551F3E /* RealmListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E8243442671D54900551F3E /* RealmListVC.xib */; };
+		8E8243482671D57600551F3E /* RealmVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8243472671D57600551F3E /* RealmVM.swift */; };
+		8E82434B2671D5A800551F3E /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E82434A2671D5A800551F3E /* RealmManager.swift */; };
+		8E82434F2671E6A400551F3E /* InputVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E82434D2671E6A400551F3E /* InputVC.swift */; };
+		8E8243502671E6A400551F3E /* InputVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E82434E2671E6A400551F3E /* InputVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,13 @@
 		8E8243242671974400551F3E /* Memo_mvvmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Memo_mvvmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E8243282671974400551F3E /* Memo_mvvmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo_mvvmUITests.swift; sourceTree = "<group>"; };
 		8E82432A2671974400551F3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E8243402671D50B00551F3E /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		8E8243432671D54900551F3E /* RealmListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmListVC.swift; sourceTree = "<group>"; };
+		8E8243442671D54900551F3E /* RealmListVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RealmListVC.xib; sourceTree = "<group>"; };
+		8E8243472671D57600551F3E /* RealmVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmVM.swift; sourceTree = "<group>"; };
+		8E82434A2671D5A800551F3E /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		8E82434D2671E6A400551F3E /* InputVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputVC.swift; sourceTree = "<group>"; };
+		8E82434E2671E6A400551F3E /* InputVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InputVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +97,7 @@
 				8E82431C2671974400551F3E /* Memo_mvvmTests */,
 				8E8243272671974400551F3E /* Memo_mvvmUITests */,
 				8E8243042671974400551F3E /* Products */,
+				A899F239E7A47E259198F4F9 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +121,10 @@
 				8E82430F2671974400551F3E /* Assets.xcassets */,
 				8E8243112671974400551F3E /* LaunchScreen.storyboard */,
 				8E8243142671974400551F3E /* Info.plist */,
+				8E82434C2671E59D00551F3E /* Input */,
+				8E8243492671D58D00551F3E /* Common */,
+				8E82433F2671D4EE00551F3E /* Model */,
+				8E82433E2671D4CA00551F3E /* Realm_view */,
 			);
 			path = Memo_mvvm;
 			sourceTree = "<group>";
@@ -126,6 +145,48 @@
 				8E82432A2671974400551F3E /* Info.plist */,
 			);
 			path = Memo_mvvmUITests;
+			sourceTree = "<group>";
+		};
+		8E82433E2671D4CA00551F3E /* Realm_view */ = {
+			isa = PBXGroup;
+			children = (
+				8E8243432671D54900551F3E /* RealmListVC.swift */,
+				8E8243442671D54900551F3E /* RealmListVC.xib */,
+				8E8243472671D57600551F3E /* RealmVM.swift */,
+			);
+			path = Realm_view;
+			sourceTree = "<group>";
+		};
+		8E82433F2671D4EE00551F3E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8E8243402671D50B00551F3E /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8E8243492671D58D00551F3E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				8E82434A2671D5A800551F3E /* RealmManager.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		8E82434C2671E59D00551F3E /* Input */ = {
+			isa = PBXGroup;
+			children = (
+				8E82434D2671E6A400551F3E /* InputVC.swift */,
+				8E82434E2671E6A400551F3E /* InputVC.xib */,
+			);
+			path = Input;
+			sourceTree = "<group>";
+		};
+		A899F239E7A47E259198F4F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +294,9 @@
 			files = (
 				8E8243132671974400551F3E /* LaunchScreen.storyboard in Resources */,
 				8E8243102671974400551F3E /* Assets.xcassets in Resources */,
+				8E8243462671D54900551F3E /* RealmListVC.xib in Resources */,
 				8E82430E2671974400551F3E /* Main.storyboard in Resources */,
+				8E8243502671E6A400551F3E /* InputVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +321,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E8243452671D54900551F3E /* RealmListVC.swift in Sources */,
+				8E82434F2671E6A400551F3E /* InputVC.swift in Sources */,
 				8E82430B2671974400551F3E /* ViewController.swift in Sources */,
 				8E8243072671974400551F3E /* AppDelegate.swift in Sources */,
 				8E8243092671974400551F3E /* SceneDelegate.swift in Sources */,
+				8E8243482671D57600551F3E /* RealmVM.swift in Sources */,
+				8E82434B2671D5A800551F3E /* RealmManager.swift in Sources */,
+				8E8243412671D50B00551F3E /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +507,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BWL5885Q6Q;
 				INFOPLIST_FILE = Memo_mvvm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -446,7 +515,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Memo-mvvm";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -458,6 +527,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BWL5885Q6Q;
 				INFOPLIST_FILE = Memo_mvvm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,7 +535,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Memo-mvvm";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
